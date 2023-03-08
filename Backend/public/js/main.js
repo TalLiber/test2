@@ -1,4 +1,3 @@
-
 import appHeader from './cmps/app-header.cmp.js'
 import userMsg from './cmps/user-msg.cmp.js'
 import { myRouter } from './routes.js'
@@ -16,14 +15,10 @@ const options = {
     `,
     components: {
         appHeader,
-        userMsg
-    }
+        userMsg,
+    },
 }
 
 const app = Vue.createApp(options)
 app.use(myRouter)
 app.mount('#app')
-
-
-
-
